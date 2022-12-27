@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<VBox alignment="CENTER" prefHeight="432.0" prefWidth="502.0" spacing="20.0" style="-fx-background-color: #60B1FF;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Button fx:id="playernamebutton" ellipsisString="" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="68.0" prefWidth="224.0" style="-fx-background-color: #2FD44A;" text="ENTER PLAYER NAME" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+
+        <font>
+            <Font name="Gill Sans MT" size="17.0" />
+        </font>
+        <effect>
+            <ColorAdjust />
+        </effect>
+    </Button>
+    <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="168.0" promptText="         Player Name" />
+
+    <Label fx:id="welcomeText" prefHeight="17.0" prefWidth="92.0" />
+    <AnchorPane prefHeight="139.0" prefWidth="462.0">
+        <children>
+            <Button fx:id="playernamebutton1" ellipsisString="" layoutX="169.0" layoutY="45.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" style="-fx-background-color: #2ED350;" text="Enter" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                <font>
+                    <Font name="Gill Sans MT" size="17.0" />
+                </font>
+                <effect>
+                    <Blend mode="GREEN" />
+                </effect>
+            </Button>
+        </children>
+    </AnchorPane>
+    <effect>
+        <Glow />
+    </effect>
+</VBox>
+

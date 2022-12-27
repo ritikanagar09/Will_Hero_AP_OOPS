@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1e90ff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.Game">
+    <children>
+        <Group />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001fd078" height="400.0" layoutX="25.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1044e1b0" height="400.0" layoutX="517.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2155ffbb" height="400.0" layoutX="133.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2155ffc6" height="400.0" layoutX="409.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2155ff92" height="400.0" layoutX="261.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e1ff" height="258.0" layoutX="90.0" layoutY="99.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="7.0" width="377.0" />
+        <Text fontSmoothingType="LCD" layoutX="66.0" layoutY="83.0" stroke="#ff2727" strokeType="OUTSIDE" strokeWidth="0.0" text="    ? HELP ?" textAlignment="CENTER" wrappingWidth="368.13671875">
+            <font>
+                <Font name="Bauhaus 93" size="67.0" />
+            </font>
+        </Text>
+        <Text fill="#f8e5e5" fontSmoothingType="LCD" layoutX="90.0" layoutY="67.0" stroke="#ff2727" strokeType="OUTSIDE" strokeWidth="0.0" text="    ? HELP ?" textAlignment="CENTER" wrappingWidth="319.13671875">
+            <font>
+                <Font name="System Bold" size="67.0" />
+            </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e1ff" height="258.0" layoutX="133.0" layoutY="128.0" stroke="#070a28" strokeType="INSIDE" strokeWidth="7.0" width="377.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+            <children>
+                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#91caff" height="243.0" layoutX="96.0" layoutY="68.0" stroke="#91caff" strokeType="INSIDE" width="409.0" />
+                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ff44" height="200.0" layoutX="145.0" layoutY="90.0" stroke="#f9ff44" strokeType="INSIDE" width="313.0" />
+                    <Label layoutX="172.0" layoutY="113.0" prefHeight="60.0" prefWidth="264.0" text="SAVE GAME PROGRESS?" textFill="#0a41c1">
+                        <font>
+                            <Font name="Palatino Linotype Bold" size="20.0" />
+                        </font>
+                    </Label>
+                    <Button layoutX="214.0" layoutY="188.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="68.0" style="-fx-background-color: #2fd34c;" text="YES" textFill="#fcfcfc">
+                        <font>
+                            <Font name="Palatino Linotype Bold" size="21.0" />
+                        </font></Button>
+                    <Button layoutX="316.0" layoutY="187.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="68.0" style="-fx-background-color: #2fd34c;" text="NO" textFill="#fcfcfc">
+                        <font>
+                            <Font name="Palatino Linotype Bold" size="21.0" />
+                        </font></Button>
+                </children>
+
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="281.0" prefWidth="318.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Button onAction="#onHelloButtonClick" prefHeight="24.0" prefWidth="129.0" style="-fx-background-color: #00FF00;" text="START NEW GAME" />
+   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="RESUME GAME" />
+   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="SEE STATS" />
+   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="HELP" />
+   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="QUIT" />
+</VBox>
