@@ -9,10 +9,10 @@ The identified classes, basic structure and corresponding class relationships ha
 
 ## Main Screen
 
-![Main Screen](https://github.com/diyaahuja/Will_Hero_118/blob/main/WillHero_JavaFX/images/main_menu.jpg)
+![Main Screen](https://github.com/ritikanagar09/Will_Hero_AP_OOPS/WillHero_JavaFX/images/main_menu.jpg)
 
 <br />
 
 ## Game Screen
 
-![Game Screen](https://github.com/diyaahuja/Will_Hero_118/blob/main/WillHero_JavaFX/images/Game_Screen.jpg)
+![Game Screen](https://github.com/ritikanagar09/Will_Hero_AP_OOPS/WillHero_JavaFX/images/Game_Screen.jpg)
